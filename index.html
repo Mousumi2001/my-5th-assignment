@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Most popular football players</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- font link  -->
+    <script src="https://kit.fontawesome.com/975d84b6b0.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <!-- start header  -->
+    <header>
+        <section class="h-50">
+            <div class="text-center p-5 bg-dark text-primary ">
+                <h1 id='colors' class="fs-1 pt-5 ">Most popular football players</h1>
+                <p class="pb-5 text-white">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                    <br>Velit
+                    officia consequat duis enim velit mollit. Exercitation veniam consequat sunt
+                    nostrud amet.
+                </p>
+            </div>
+        </section>
+    </header>
+    <!-- start main section  -->
+    <main class="bg-dark">
+        <section class="pt-5 pb-5 mt-3">
+            <div class="container px-4 text-center">
+                <div class="row gx-2">
+                    <div class="col-9">
+
+
+                        <div class="row g-5">
+
+                            <div class="row row-cols-1 row-cols-md-3 g-4">
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <img src="https://cdn.wallpapersafari.com/36/30/hgX9Oi.jpg" class="card-img-top"
+                                            alt="...">
+                                        <div class="card-body">
+                                            <h5 id="name-1" class="card-title">Lionel Messi</h5>
+                                            <p class="card-text"><span>36 goals </span>.<span> 120 assist</span></p>
+                                            <div>
+                                                <button onclick="addToCart(this)" id="btn-1"
+                                                    class="btn btn-primary w-75">SELECT</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <img src="https://tse3.mm.bing.net/th?id=OIP.u26skfoH9Uo1EZb-oEcacgHaE8&pid=Api&P=0"
+                                            class="card-img-top img-fluid" alt="...">
+                                        <div class="card-body">
+                                            <h5 id="name-2" class="card-title">Neymar Jr</h5>
+                                            <p class="card-text"><span>36 goals </span>.<span> 120 assist</span></p>
+                                            <div>
+                                                <button onclick="addToCart(this)" id="btn-2"
+                                                    class="btn btn-primary w-75">SELECT</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <img src="https://tse3.mm.bing.net/th?id=OIP.7Z2rUOfoRTFEFOr9dGa9TgHaEK&pid=Api&P=0"
+                                            class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 id="name-3" class="card-title">Kylian Mbappé</h5>
+                                            <p class="card-text"><span>36 goals </span>.<span> 120 assist</span></p>
+                                            <div>
+                                                <button onclick="addToCart(this)" id="btn-3"
+                                                    class="btn btn-primary w-75">SELECT</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <img src="https://tse2.mm.bing.net/th?id=OIP.6Gp6xghZSqrc6xcOouEiTAHaE7&pid=Api&P=0"
+                                            class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 id="name-4" class="card-title">Ronaldo</h5>
+                                            <p class="card-text"><span>36 goals </span>.<span> 120 assist</span></p>
+                                            <div>
+                                                <button onclick="addToCart(this)" id="btn-4"
+                                                    class="btn btn-primary w-75">SELECT</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <img src="https://tse1.mm.bing.net/th?id=OIP.5M-qAjUliezpWq_-PemzpQHaEU&pid=Api&P=0"
+                                            class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 id="name-5" class="card-title">Sergio Ramos</h5>
+                                            <p class="card-text"><span>36 goals </span>.<span> 120 assist</span></p>
+                                            <div>
+                                                <button onclick="addToCart(this)" id="btn-5"
+                                                    class="btn btn-primary w-75">SELECT</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <img src="https://tse4.mm.bing.net/th?id=OIP.Ji1obDsjxFjUxG5x0GHJywHaEK&pid=Api&P=0"
+                                            class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 id="name-6" class="card-title">Renato Sanches</h5>
+                                            <p class="card-text"><span>36 goals </span>.<span> 120 assist</span></p>
+                                            <div>
+                                                <button onclick="addToCart(this)" id="btn-6"
+                                                    class="btn btn-primary w-75">SELECT</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-3">
+                        <div class="12 border  h-50">
+                            <h1 class="text-primary fs-4">Selected - V</h1>
+                            <div id="ul-list" class="text-white">
+
+                            </div>
+                        </div>
+
+                        <div class="12 border mt-2">
+                            <h1 class="text-primary fs-4">Budget</h1>
+                            <p><span class="text-white ">Per Player</span> <input id="input-field" class="w-50"
+                                    type='text'></p>
+                            <button type="button" id="calculate" class="btn btn-outline-primary w-75">Calculate</button>
+                            <p class="text-white p-2 d-flex justify-content-around">Player Expense <span>$
+                                    <span id="total">1000</span></span>
+                            </p>
+                            <p class="d-flex justify-content-around"><span class="text-white">Manager</span> <input
+                                    id="manager" class="w-50" type='text'></p>
+                            <p class="d-flex justify-content-around"><span class="text-white">Coach</span>
+                                <input id="coach" class="w-50" type='text'>
+                            </p>
+                            <button id="cal-total" type="button" class="btn btn-outline-primary w-75">Calculate
+                                total</button>
+                            <p class="pt-3 text-white d-flex justify-content-around">Total <span id="colors">$<span
+                                        id="sum-all">10000</span></span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+    <!-- bootstrap cdn  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <script src="js/common.js"></script>
+    <script src="js/event.js"></script>
+</body>
+<!-- start footer  -->
+<footer class="bg-dark">
+    <hr>
+    <p class=" p-5 text-white text-center">Copyright @ 2022 All Rights Reserved.</p>
+</footer>
+
+
+</html>
